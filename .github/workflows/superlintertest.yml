@@ -32,5 +32,6 @@ jobs:
           # To report GitHub Actions status checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_HTML_PRETTIER: false
-          VALIDATE_MARKDOWN: false
+          VALIDATE_MARKDOWN_PRETTIER: false
+          
         
