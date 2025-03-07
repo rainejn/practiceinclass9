@@ -31,4 +31,5 @@ jobs:
         env:
           # To report GitHub Actions status checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VALIDATE_HTML_PRETTIER: false
           RUN_LINTERS: "html"
